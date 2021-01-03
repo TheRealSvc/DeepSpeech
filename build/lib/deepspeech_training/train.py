@@ -17,8 +17,6 @@ import tensorflow as tf
 import tensorflow.compat.v1 as tfv1
 import time
 
-tf.compat.v1.disable_eager_execution()
-
 tfv1.logging.set_verbosity({
     '0': tfv1.logging.DEBUG,
     '1': tfv1.logging.INFO,
